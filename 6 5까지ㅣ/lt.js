@@ -505,7 +505,7 @@ function mousePressed(){
     
 }
 function keyPressed(){
-    if(keyCode===ENTER && scene!=7 && scene !=1&&scene!=5)
+    if(keyCode===ENTER && scene!=7 && scene !=1&&scene!=5&&scene!=4)
     {
         if(scene === 2)
         {
@@ -535,6 +535,9 @@ function keyPressed(){
             page++;
         if(keyCode===LEFT_ARROW && page>0)
             page--;
+    }
+    if(scene === 4){
+        if(livecnt>6&&keyCode===ENTER)scene++;
     }
 
 
