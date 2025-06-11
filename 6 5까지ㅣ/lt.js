@@ -416,7 +416,7 @@ function lottoCmpResult1(){
     if(maxCnt === 6 )text('1등 당첨!',1050,400);
 
 
-    text(maxCnt,110,110,200,200);
+    
 
 
 }
