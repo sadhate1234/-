@@ -505,7 +505,7 @@ function mousePressed(){
     
 }
 function keyPressed(){
-    if(keyCode ==='f'){
+    if(key ==='f'){
       let fs = fullscreen();
       fullscreen(!fs);
     }
