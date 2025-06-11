@@ -509,7 +509,7 @@ function keyPressed(){
       let fs = fullscreen();
       fullscreen(!fs);
     }
-    if(keyCode===ENTER && scene!=7 && scene !=1&&scene!=5&&scene!=4)
+    if(keyCode===ENTER && scene!=8 && scene !=1&&scene!=5&&scene!=4)
     {
         if(scene === 2)
         {
